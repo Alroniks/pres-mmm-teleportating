@@ -158,31 +158,86 @@
 		<div>
 			<h2>Неужели нет решения?</h2>
 			<ul>
-				<li>SE Manager + StaticSaver + git</li>
-				<li>ElementHelper + git</li>
-				<li>Gitify</li>
-				<li>Cast</li>
+				<li><a href="https://github.com/lovata/modx-semanager">SE Manager</a> + <a href="https://github.com/argnist/StaticSaver">StaticSaver</a> + git</li>
+				<li><a href="https://github.com/roryg/ElementHelper">ElementHelper</a> + git</li>
+				<li><a href="https://github.com/opengeek/cast">Cast</a></li>
+				<li><a href="https://github.com/modmore/Gitify">Gitify</a></li>
 				<li>Общие недостатки</li>
 			</ul>
 			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
-		<div></div>
+		<div>
+			<h2>SE Manager + StaticSaver + git</h2>
+			<span class="plus">+</span> Быстрый экспорт элементов в файлы из админки<br>
+			<span class="plus">+</span> Автоматическая подстановка имени файла в форму ресурса <br>
+			<span class="plus">+</span> Контроль версий для статических элементов <br>
+			<span class="minus">-</span> При добавлении файла нельзя автоматически создать элемент <br>
+			<span class="minus">-</span> Нельзя использовать ссылки на ресурсы по id <br>
+			<span class="minus">-</span> Нет сведений о состоянии системы<br>
+			<style>
+			.plus {
+				color: green;
+				font-weight: bold;
+				font-size: 30px;
+			}
+			.minus {
+				color: red;
+				font-weight: bold;
+				font-size: 30px;
+			}
+			</style>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
 	</section>
 	<section class="slide">
-		<div></div>
+		<div>
+			<h2>ElementHelper + git</h2>
+			<span class="plus">+</span> Умеет TV<br>
+			<span class="plus">+</span> Умеет отслеживать историю изменений элемента <br>
+			<span class="plus">+</span> Есть автоудаление элементов <br>
+			<span class="plus">+</span> Умеет создавать элементы из файлов <br>
+			<span class="minus">-</span> Нельзя использовать ссылки на ресурсы по id <br>
+			<span class="minus">-</span> Нет сведений о состоянии системы<br>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
 	</section>
 	<section class="slide">
-		<div></div>
+		<div>
+			<h2>Cast</h2>
+			<div style="font-size: 16px;">CAST - Content Addressable Storage and Transfer, библиотека для MODX, построенная вокруг git.</div>
+			<span class="plus">+</span> Работает с объектами xPDO<br>
+			<span class="plus">+</span> Обертки git-команд в самой библиотеке<br>
+			<span class="plus">+</span> Есть настройка того, что нужно сериализовать<br>
+			<span class="minus">-</span> Не поддерживает команды с взаимодействием с пользователем<br>
+			<span class="minus">-</span> Перед десереализацией удаляет записи из таблиц <br>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
 	</section>
 	<section class="slide">
-		<div></div>
+		<div>
+			<h2>Gitify</h2>
+			<div style="font-size: 16px;">Новый инструмент от Марка Хамстры, презентованный на MODX Weekend.</div>
+			<span class="plus">+</span> Конфигурация в YAML<br>
+			<span class="plus">+</span> Дополнительные команды для управления сайтом<br>
+			<span class="plus">+</span> Данные хранятся в виде обычных файлов, конфиги в заголовках<br>
+			<span class="minus">-</span> На сегодня очень мало умеет и еще в разработке<br>
+			<span class="minus">-</span> Не удобно править файлы, не срабатывает подстветка синтаксиса<br>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
 	</section>
 	<section class="slide">
-		<div></div>
+		<div>
+			<h2>Общие проблемы</h2>
+			<ul>
+				<li>Однонаправленность</li>
+				<li>Недостаток документации</li>
+				<li>Сложность для обычного пользователя</li>				
+			</ul>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
 	</section>
-
 	<section class="slide cover shout h" id="teleport">
 		<div>
 			<h2>Teleport</h2>
@@ -205,6 +260,7 @@
 			Автор: <a href="http://jasoncoward.com">Jason Coward</a>
 			<br>
 			<h3>MODX Cloud</h3>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 		<style>
 		#teleport2 h3 {
@@ -228,6 +284,7 @@
 				<li><mark>profile</mark> - в нем будут размещены профили сайтов</li>
 				<li><mark>workspace</mark> - в нем будут размещены собранные пакеты</li>
 			</ul>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
@@ -240,6 +297,7 @@
 				<li>Создание профиля целевого сайта</li>
 				<li>Распаковка и установка обновлений</li>
 			</ol>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
@@ -253,27 +311,92 @@
 				<li class="next">UserCreate</li>
 				<li class="next">Packages/GC</li>
 			</ul>
-
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
-		<div></div>
-	</section>
-	<section class="slide">
-		<div></div>
-	</section>
-	<section class="slide">
-		<div></div>
-	</section>
-	<section class="slide">
-		<div></div>
-	</section>
-	<section class="slide">
-		<div></div>
+		<div>
+			<h2><a href="https://github.com/modxcms/teleport/blob/master/doc/use/profile.md">Profile</a></h2>
+			<pre>
+				<code>php teleport.phar \</code>
+				<code class="next">    --action=Profile \</code>
+				<code class="next">    <mark class="important">--name="MySite"</mark> \</code>
+				<code class="next">    --code=mysite \</code>
+				<code class="next">    <mark class="important">--core_path=/path/to/mysite/modx/core/</mark> \</code>
+				<code class="next">    --config_key=config</code>
+			</pre> 
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
 	</section>
 	<section class="slide">
 		<div>
-			<h2></h2>
+			<h2><a href="https://github.com/modxcms/teleport/blob/master/doc/use/extract.md">Extract</a></h2>
+			<pre>
+				<code>php teleport.phar \</code>
+				<code class="next">    --action=Extract \</code>
+			 	<code class="next">    <mark class="important">--profile=profile/mysite.profile.json</mark> \</code>
+			 	<code class="next">    <mark class="important">--tpl=phar://teleport.phar/tpl/complete.tpl.json</mark></code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2><a href="https://github.com/modxcms/teleport/blob/master/doc/use/inject.md">Inject</a></h2>
+			<pre>
+				<code>php teleport.phar \</code>
+				<code class="next">    --action=Inject \</code>
+				<code class="next">    <mark class="important">--profile=profile/mysite.profile.json</mark> \</code>
+				<code class="next">    <mark style="font-size: 16px;" class="important">--source=workspace/mysite_develop-120315.1106.30-2.2.1-dev.transport.zip</mark></code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Push</h2>
+			<pre>
+				<code>php teleport.phar \</code>
+				<code>    --action=Extract \</code>
+				<code>    --profile=profile/mysite.profile.json \</code>
+				<code>    --tpl=phar://teleport.phar/tpl/complete.tpl.json \</code>
+				<code class="next">    <mark class="important">--target=s3://mybucket/snapshots/</mark> \</code>
+				<code class="next">    <mark class="important">--push</mark></code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
+	</section>
+	<section class="slide" id="UserCreate">
+		<div>
+			<h2><a href="https://github.com/modxcms/teleport/blob/master/doc/use/user-create.md">UserCreate</a></h2>
+			<pre>
+				<code>php teleport.phar \</code>
+				<code>    --action=UserCreate \</code>
+				<code>    <mark class="important">--profile=profile/mysite.profile.json</mark> \</code>
+				<code>    <mark class="important">--username=superuser</mark> \</code>
+				<code>    --password=password \</code>
+				<code>    --sudo \</code>
+				<code>    --active \</code>
+				<code>    --fullname="Test User" \</code>
+				<code>    <mark class="important">--email=testuser@example.com</mark></code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+			<style>
+			#UserCreate pre {
+				font-size: 16px;
+			}
+			</style>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2><a href="https://github.com/modxcms/teleport/blob/master/doc/use/packages/gc.md">Packages/GC</a></h2>
+			<pre>
+				<code>php teleport.phar \</code>
+				<code>    --action=Packages/GC \</code>
+				<code>    <mark class="important">--profile=profile/mysite.profile.json</mark></code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide shout">
@@ -289,6 +412,7 @@
 				<li>Формат - json</li>
 				<li>11 шаблонов из коробки: <strong>changeset</strong>, <strong>complete</strong>, <strong>complete_db</strong>, <strong>develop</strong>, <strong>elements</strong>, <strong>packages</strong>, <strong>resource_children</strong>, <strong>resources</strong>, <strong>settings</strong>, <strong>user</strong>, <strong>users</strong></li>
 			</ul>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
@@ -297,6 +421,7 @@
 			<p>Извлекает определенный набор изменений, зафиксированный обратной функцией, заданной в настройках MODX.</p>
 			<strong>settings.json.tpl</strong>
 			<p>Извлекает все настройки из первого сайта для импорта во второй, обновляет и дополняет существующие.</p>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
@@ -307,6 +432,7 @@
 			<p>Извлекает все объекты ядра и пользовательские таблицы, без файлов.</p>
 			<strong>packages.json.tpl</strong>
 			<p>Извлекает все пакеты из первого сайта и устанавливает во втором.</p>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
@@ -315,6 +441,7 @@
 			<p>Извлекает все объекты ядра, файлы и пользовательские таблицы из первого сайта для импорта во второй, дополняет существующие объекты и таблицы.</p>
 			<strong><mark>elements.json.tpl</mark></strong>
 			<p>Извлекает все элементы и связанные с ними данные из первого сайта для импорта во второй, обновляет и дополняет существующие.</p>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
@@ -323,6 +450,7 @@
 			<p>Извлекает все ресурсы из первого сайта для импорта во второй, обновляет и дополняет существующие.</p>			
 			<strong>resource_children.json.tpl</strong>
 			<p>Извлекает все ресурсы, которые являются потомками заданного родительского ресурса.</p>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
@@ -331,9 +459,97 @@
 			<p>Излекает одного указанного пользователя и сопутствующие данные из первого сайта для импорта во второй.</p>			
 			<strong>users.json.tpl</strong>
 			<p>Излекает все пользователей из первого сайта для импорта во второй, обновляет и дополняет существующих.</p>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
-	
+	<section class="slide">
+		<div>
+			<h2>Собственные шаблоны</h2>
+			<strong>Простейший шаблон</strong>
+			<pre>
+				<code>{"name":"elements", "vehicles":[]}</code>
+			</pre>
+			<ul>
+				<li>Обычный json</li>
+				<li>Отношения и условия как в map-файлах modx</li>
+			</ul>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
+	</section>
+	<section class="slide" id="tpl1">
+		<div>
+			<h2>Пример собственного шаблона</h2>
+			<pre>
+				<code>{"name":"elements", "vehicles":[</code>
+			    <code>    {</code>
+			    <code>        "vehicle_class":"xPDOFileVehicle",</code>
+			    <code>        "object":{</code>
+			    <code>            "source":"{+properties.modx.core_path}components",</code>
+			    <code>            "target":"return MODX_CORE_PATH;"</code>
+			    <code>        },</code>
+			    <code>        "attributes":{</code>
+			    <code>            "vehicle_class":"xPDOFileVehicle"</code>
+			    <code>        }</code>
+			    <code>    }</code>
+			    <code>]}</code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+			<style>
+			#tpl1 pre {
+				font-size: 16px;
+			}
+			</style>
+		</div>
+	</section>
+	<section class="slide" id="tpl2">
+		<div>
+			<h2>Пример собственного шаблона</h2>
+			<table>
+				<tr>
+					<td>
+						<pre>
+							<code>{"name":"elements", "vehicles":[</code>
+							<code>    {</code>
+							<code>        "vehicle_class":"xPDOObjectVehicle",</code>
+							<code>        "object":{</code>
+							<code>            "class":"modPropertySet",</code>
+							<code>            "criteria":["1 = 1"],</code>
+							<code>            "graph":{</code>
+							<code>                "Category":[]</code>
+							<code>            },</code>
+							<code>            "package":"modx"</code>
+							<code>        },</code>
+							<code>        "attributes":{</code>
+							<code>            "preserve_keys":false,</code>
+						</pre>
+					</td>
+					<td>
+						<pre>
+							<code>            "update_object":true,</code>
+							<code>            "unique_key":"name",</code>
+							<code>            "related_objects":true,</code>
+							<code>            "related_object_attributes":{</code>
+							<code>                "Category":{</code>
+							<code>                    "preserve_keys":false,</code>
+							<code>                    "update_object":true,</code>
+							<code>                    "unique_key":"category"</code>
+							<code>                }</code>
+							<code>            }</code>
+							<code>        }</code>
+							<code>    },</code>
+							<code>]}</code>
+						</pre>
+					</td>
+				</tr>
+			</table>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+			<style>
+			#tpl2 pre {
+				font-size: 14px;
+			}
+			</style>
+		</div>
+	</section>
 	<section class="slide cover h shout" id="teleporting">
 		<div>
 			<h2>Телепортация</h2>
@@ -346,7 +562,6 @@
 			</style>
 		</div>
 	</section>
-
 	<section class="slide">
 		<div>
 			<h2>Телепортация A в B</h2>
@@ -374,6 +589,60 @@
 					<td colspan="2"><em>Синхронизированы</em></td>
 				</tr>
 			</table>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Телепортация modx.by</h2>
+			<strong>Профиль для modx.by.dev.alroniks.com</strong>
+			<pre>
+				<code>php teleport.phar --action=Profile \</code>
+				<code>--name="modxbydevalronikscom" --code=modxbydevalronikscom \</code>
+				<code>--core_path=/var/www/modx.by.dev.alroniks.com/www/core/ \</code>
+				<code>--config_key=config</code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Телепортация modx.by</h2>
+			<strong>Профиль для modx.by</strong>
+			<pre>
+				<code>php teleport.phar --action=Profile \</code>
+				<code>--name="modxby" --code=modxby \</code>
+				<code>--core_path=/var/www/modx.by/www/core/ \</code>
+				<code>--config_key=config</code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Телепортация modx.by</h2>
+			<strong>Упаковка для modx.by.dev.alroniks.com</strong>
+			<pre>
+				<code>php teleport.phar --action=Extract \</code>
+				<code>--profile=profile/modxbydevalronikscom.profile.json /</code>
+				<code>--tpl=phar://teleport.phar/tpl/elements.tpl.json /</code>
+				<code><mark>--target=/var/www/modx.by/www/core/packages/</mark></code>
+				<code><mark>--push</mark></code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Телепортация modx.by</h2>
+			<strong>Установка для modx.by</strong>
+			<pre>
+				<code>php teleport.phar --action=Inject \</code>
+				<code>--profile=profile/modxby.profile.json \</code>
+				<code><mark style="font-size: 16px;">--source=/var/www/modx.by/www/core/packages/
+modxbydevalronikscom_complete-141125.1702.46-2.3.2-pl.transport.zip</mark></code>
+			</pre>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide cover h">
@@ -390,6 +659,7 @@
 				<li>не на все действия есть документация</li>
 				<li>до сих пор нет документации по <mark>custom tpls</mark></li>
 			</ul>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>
 	<section class="slide">
@@ -401,6 +671,7 @@
 				<li>Специальный репозиторий для обновлений</li>
 				<li>Continuous Delivery через пакеты</li>
 			</ul>
+			<a href="http://alroniks.com"><img src="pictures/alroniks-experts.svg" alt="Alroniks Experts" class="logo place r t"></a>
 		</div>
 	</section>	
 	<section class="slide">
